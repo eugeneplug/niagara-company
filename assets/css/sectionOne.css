@@ -1,0 +1,27 @@
+.sectionOne {
+    max-width: 1040px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.sectionOneJaw {
+    width: 157px;
+    height: 31px;
+    margin: 0 auto;
+
+    background-color: #FEF3EA;
+    font-size: 12px;
+    color: #021A42;
+    border-radius: 20px;
+    font-weight: 500;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sectionOneTittle {
+    text-align: center;
+    font-size: 46px;
+    line-height: 55.2px;
+}

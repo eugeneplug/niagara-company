@@ -1,0 +1,27 @@
+.header {
+    max-width: 1040px;
+    width: 100%;
+    margin: 0 auto;
+}
+.nav {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+.navUl {
+    display: flex;
+    gap: 25px;
+}
+.nav > a {
+    color: white;
+    width: 210px;
+    height: 45px;
+    background-color: #FD8127;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
