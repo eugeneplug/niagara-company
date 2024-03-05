@@ -134,3 +134,29 @@
     transition: 0.15s;
     border-bottom: 2px #FF3D00 solid;
 }
+
+@media (max-width:900px) {
+    .sectionTwo {
+        margin-top: 80px;
+    }
+    .sectionTwoText h2 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .sectionTwoText h3 {
+        width: 335px;
+        margin: 0 auto;
+        line-height: 18.2px;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .sectionTwoContentBlock {
+        width: 335px;
+        height: 368px;
+    }
+    .sectionTwoContentBlock > img {
+        width: 313px;
+        height: 180px;
+        padding-top: 12px;
+    }
+}

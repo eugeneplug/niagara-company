@@ -1,5 +1,6 @@
 let btn = document.querySelector ('.navMobileBurger');
 let burgermenu = document.querySelector('.burgermenu');
+let body = document.querySelector('body');
 
 let stick1 = document.querySelector('.stick1');
 let stick2 = document.querySelector('.stick2');
@@ -18,6 +19,8 @@ btn.addEventListener('click', function() {
 
         stick1.style.top = '4px'
         stick3.style.top = '-5px'
+
+        body.style.overflow = 'hidden'
         
     } else {
         burgermenu.style.display = ''
@@ -27,6 +30,7 @@ btn.addEventListener('click', function() {
 
         stick1.style.top = ''
         stick3.style.top = ''
+        body.style.overflow = ''
     }
 });
 
