@@ -1,0 +1,72 @@
+.sectionFive {
+    max-width: 1042px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.sectionFiveText {
+    text-align: center;
+    margin-top: 5px;
+    font-weight: 700;
+    font-family: "Unbounded", sans-serif;
+}
+.sectionFiveText h2 {
+    font-size: 32px;
+}
+.sectionFiveText h2 span:first-child {
+    color: #021A42;
+}
+.sectionFiveText h2 span:last-child {
+    color: #FD8127;
+}
+/**/
+.sectionFiveForm {
+    margin-top: 40px;
+    max-width: 1041px;
+    width: 100%;
+
+
+}
+.sectionFiveForm div {
+    display: flex;
+    
+    
+    
+    align-items: center;
+
+}
+.sectionFiveRow {
+    gap: 30px;
+    margin-top: 30px;
+    justify-content: center;
+}
+.sectionFive input {
+    border: #D3D3D3 solid 1px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.7);
+    padding-left: 20px;
+}
+.sectionFive input::placeholder {
+    /* padding-left: 20px; */
+    font-weight: 500;
+}
+.input1 {
+    max-width: 485px;
+    height: 52px;
+    width: 100%;
+}
+.input2 {
+    max-width: 215px;
+    width: 100%;
+    height: 52px;
+}
+.required {
+    justify-content: space-between;
+    gap: 0;
+}
+.requiredRow {
+    display: flex;
+    gap: 5px;
+}

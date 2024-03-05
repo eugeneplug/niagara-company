@@ -1,0 +1,75 @@
+.sectionFour {
+    max-width: 1042px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.sectionFourText {
+    text-align: center;
+}
+.sectionFourText h2 {
+    font-family: "Unbounded", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 5px;
+}
+.sectionFourText h2 span:first-child {
+    color: #021A42;
+}
+.sectionFourText h2 span:last-child {
+    color: #FD8127;
+}
+.sectionFourText p {
+    max-width: 722px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 20px;
+}
+/**/
+
+.sectionFourContent {
+    max-width: 1040px;
+    height: 353px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.sectionFourBlock {
+    background-color: #F5F5F5;
+    width: 326px;
+    height: 353px;
+    border-radius: 24px;
+    
+    
+}
+.sectionFourBlock h2 {
+    color: #FD8127;
+    font-weight: 600;
+    font-size: 10px;
+    margin-top: 30px;
+    margin-left: 29px;
+
+}
+.sectionFourBlock h3 {
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 5px;
+    margin-left: 29px;
+}
+.sectionFourBlock p {
+    font-size: 13px;
+    margin-left: 29px;
+    width: 268px;
+    line-height: 19.5px;
+}
+.sectionFourBlock p:nth-child(3) {
+   margin-top: 15px;
+}
+.sectionFourBlock p:nth-child(4) {
+    margin-top: 30px;
+ }

@@ -25,6 +25,8 @@
     font-size: 46px;
     line-height: 55.2px;
     margin-top: 10px;
+    font-family: "Unbounded", sans-serif;
+   
 }
 .sectionOneTittle span:first-child {
     color: #021A42;
@@ -87,4 +89,39 @@
     border: solid 1px;
     border-radius: 30px;
     margin-top: 20px;
+}
+
+
+/**/
+@media (max-width:900px) {
+.sectionOneTittle {
+    margin: 0 auto;
+    font-size: 32px;
+    line-height: 35.4px;
+    margin-top: 15px;
+}
+
+.sectionOneTittle_text {
+    font-size: 18px;
+}
+
+
+
+
+}
+
+
+
+
+
+@media (max-width:500px) {
+    .sectionOneTittle {
+        font-size: 22px;
+        line-height: 26.4px;
+        width: 335px;
+
+    }
+    .sectionOneTittle_text {
+        font-size: 15px;
+    }
 }

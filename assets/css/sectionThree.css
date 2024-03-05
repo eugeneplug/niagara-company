@@ -1,0 +1,79 @@
+.sectionThree {
+    max-width: 1042px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.sectionThreeText {
+    text-align: center;
+}
+.sectionThree h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 5px;
+    font-family: "Unbounded", sans-serif;
+}
+.sectionThree h2 span:first-child {
+    color: #021A42;
+
+}
+.sectionThree h2 span:last-child {
+    color: #FD8127;
+
+}
+.sectionThreeText p {
+    max-width: 722px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 24px;
+    font-weight: 500;
+}
+/**/
+
+.sectionThreeContent {
+    max-width: 1042px;
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29px;
+    margin-top: 40px;
+}
+.sectionThreeContentBlock {
+    width: 328px;
+    height: 212px;
+    border-radius: 24px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.sectionThreeContentBlock:first-child {
+    background-color: #FEF3EA;
+}
+.sectionThreeContentBlock:nth-child(5) {
+    background-color: #FEF3EA;
+}
+
+.sectionThreeContentBlock img {
+    padding-top: 30px;
+}
+.sectionThreeContentBlock h3 {
+    font-weight: 700;
+    font-size: 13px;
+    width: 248px;
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    
+}
+.sectionThreeContentBlock p {
+    width: 248px;
+    font-size: 12px;
+    padding-top: 5px;
+
+}

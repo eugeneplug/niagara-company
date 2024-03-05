@@ -1,0 +1,82 @@
+.sectionSix {
+    max-width: 1042px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.sectionSixText {
+    text-align: center;
+    margin-top: 5px;
+    font-weight: 700;
+    
+}
+.sectionSixText h2 {
+    font-size: 32px;
+    font-family: "Unbounded", sans-serif;
+}
+.sectionSixText h2 span:first-child {
+    color: #021A42;
+}
+.sectionSixText h2 span:last-child {
+    color: #FD8127;
+}
+.sectionSixText p {
+    line-height: 24px;
+    text-align: center;
+    max-width: 722px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 500;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+/**/
+.sectionSixContent {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.sectionSixContentBlock {
+    max-width: 1040px;
+    height: 72px;
+    width: 100%;
+    background-color: #F5F5F5;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+.sectionSixContentBlockRow {
+    display: flex;
+    justify-content: space-between;
+    transition: 0.15s;
+}
+
+
+
+
+
+
+
+
+
+.sectionSixContentBlockRow h3 {
+    font-size: 20px;
+    padding-left: 30px;
+
+}
+.rotate {
+    padding-right: 30px;
+}
+.sectionSixContentBlock p {
+    display: none;
+    padding-left: 30px;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 500;
+    line-height: 24px;
+    max-width: 722px;
+    width: 100%;
+    padding-top: 10px;
+}

@@ -13,6 +13,7 @@
     font-size: 32px;
     line-height: 38.4px;
     margin-top: 5px;
+    font-family: "Unbounded", sans-serif;
 }
 
 .sectionTwoText > h2 > span:first-child {
@@ -70,10 +71,66 @@
     height: 12px;
     padding: 0;
 }
+.sectionTwoContentBlock h3 {
+    color: rgba(0, 0, 0, 0.7);
+}
+.sectionTwoContentBlock ul {
+    padding-top: 5px;
+}
 .sectionTwoContentBlock li {
     font-size: 10px;
     list-style: disc;
     width: 202px;
-    padding-top: 5px;
     line-height: 15px;
+}
+
+/**/
+
+.sectionTwoContentBlockInfo {
+    background-color: #FEF3EA;
+}
+.sectionTwoContentBlockInfo h3{
+    padding-top: 18px;
+    position: relative;
+    right: 50px;
+    font-size: 12px;
+}
+
+.sectionTwoContentBlockInfo a {
+    width: 202px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #FD8127;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 57px;
+    transition: 0.15s;
+}
+.sectionTwoContentBlockInfo a:hover {
+    background-color: #FF6B00;
+    transition: 0.15s;
+}
+/**/
+.sectionTwoContentLink {
+    width: 168px;
+    height: 26px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    color: #FD8127;
+    font-weight: 500;
+    font-size: 20px;
+    border-bottom: 2px #FD8127 solid;
+    padding: 2px;
+    transition: 0.15s;
+    
+}
+.sectionTwoContentLink:hover {
+    color: #FF3D00;
+    transition: 0.15s;
+    border-bottom: 2px #FF3D00 solid;
 }
