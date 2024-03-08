@@ -159,4 +159,33 @@
         height: 180px;
         padding-top: 12px;
     }
+    .sectionTwoContentBlockRow {
+        justify-content: space-between;
+        padding-left: 18px;
+        padding-right: 18px;
+        box-sizing: border-box;
+    }
+    .sectionTwoContentBlock ul {
+        padding-left: 5px;
+    }
+    .sectionTwoContentBlock li {
+        width: 299px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .sectionTwoContentBlockInfo h3 {
+        font-size: 14px;
+        right: 87px;
+    }
+    .sectionTwoContentBlockInfo a {
+        width: 299px;
+        height: 40px;
+        margin-top: 63px;
+        font-size: 16px;
+    }
+}
+    @media (max-width:699px) {
+    .card4, .card5, .card6, .card7, .card8 {
+        display: none;
+    }
 }

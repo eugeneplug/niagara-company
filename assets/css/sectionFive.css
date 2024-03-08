@@ -25,6 +25,9 @@
     max-width: 1041px;
     width: 100%;
 
+    display: flex;
+    flex-direction: column;
+
 
 }
 .sectionFiveForm div {
@@ -51,6 +54,7 @@
 .sectionFive input::placeholder {
     /* padding-left: 20px; */
     font-weight: 500;
+    color: rgba(0, 0, 0, 0.7);
 }
 .input1 {
     max-width: 485px;
@@ -69,4 +73,177 @@
 .requiredRow {
     display: flex;
     gap: 5px;
+}
+
+.required {
+    margin-top: 18px;
+ }
+
+ .checkbox {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+ }
+ 
+ .customCheckbox {
+    display: inline-block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background: white;
+    border: solid 1px #D3D3D3;
+    border-radius: 4px;
+    vertical-align: sub;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+ }
+
+ .customCheckbox::before {
+    content: '';
+
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #FD8127;
+    border-radius: 2px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 0.15s;
+ }
+
+
+ .checkbox:checked + .customCheckbox::before {
+    transform: translate(-50%, -50%) scale(1);
+ }
+
+ .labelCheckbox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+ }
+
+ .labelCheckbox p {
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+ }
+ .labelCheckbox a {
+    color: #FD8127;
+    font-size: 12px;
+    font-weight: 500;
+ }
+
+.labelFile {
+    cursor: pointer;
+}
+#labelFileBlock {
+    
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+    position: relative;
+    right: 355px;
+}
+.labelFile p {
+    font-size: 12px;
+    font-weight: 500;
+}
+.sectionFiveForm button {
+    margin: 0 auto;
+    width: 325px;
+    height: 45px;
+    color: white;
+    border-radius: 10px;
+    background-color: #FD8127;
+    margin-top: 40px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+
+}
+
+@media (max-width:900px) {
+    .sectionFiveRow {
+        gap: 15px;
+        margin-top: 15px;
+    }
+    .sectionFive {
+        margin-top: 80px;
+    }
+    .sectionFiveText h2 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .sectionFiveForm {
+        margin-top: 5px;
+    }
+    .sectionFiveForm div {
+        flex-direction: column;
+    }
+    .input1 {
+        width: 313px;
+        height: 45px;
+    }
+    .input2 {
+        max-width: 313px;
+    }
+    .inputdata2 {
+        width: 138px;
+        height: 45px;
+    }
+    .inputdata3 {
+        width: 313px;
+        height: 45px;
+    }
+    #sectionFiveRow2 {
+        display: flex;
+        flex-direction: row;
+    }
+    #labelFileBlock {
+        flex-direction: row;
+        right: 0;
+    }
+    #required {
+        flex-direction: column-reverse;
+        align-items: start;
+        width: 335px;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    .sectionFiveForm input::placeholder {
+        font-weight: 500;
+        font-size: 14px;
+       
+    }
+
+    .labelCheckbox {
+        position: relative;
+        top: 90px;
+        gap: 10px;
+    }
+    .sectionFiveForm button {
+        position: relative;
+        bottom: 35px;
+    }
+    
+    .labelCheckbox p {
+        width: 285px;
+    }
+    .customCheckbox {
+        width: 32px;
+        height: 32px;
+    }
+    .customCheckbox::before {
+        width: 24px;
+        height: 24px;
+    }
 }

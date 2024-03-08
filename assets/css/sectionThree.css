@@ -39,6 +39,7 @@
 
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 29px;
     margin-top: 40px;
 }
@@ -77,3 +78,27 @@
     padding-top: 5px;
 
 }
+
+
+@media (max-width:700px) {
+    .sectionThree {
+        margin-top: 80px;
+    }
+    .sectionThree h2 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .sectionThreeText p {
+        width: 335px;
+        font-size: 14px;
+        margin: 0 auto;
+        margin-top: 15px;
+        line-height: 18.2px;
+    }
+    .sectionThreeContent {
+        display: none;
+    }
+   
+}
+
+  
